@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-link {
+  color: cornflowerblue;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.title {
+  color: #222222;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+}
+
+.description {
+  color: coral;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+}
+
+.beer-card {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid lightsalmon;
+  box-sizing: border-box;
+  align-items: center;
+  max-width: 450px;
+}
+
+.navbar {
+  background: lightgray;
+  margin-bottom: 10px;
+  display: flex;
+  padding: 0 20px;
+}
+
+.navbar .menu-link {
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.navbar .menu-link:hover {
+  background: #ea6767;
+}
+
+.navbar .menu-link:last-child {
+  margin-right: 0px;
+}
