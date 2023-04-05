@@ -49,7 +49,6 @@ header {
 .navigation {
   width: 533px;
   margin-bottom: 84px;
-  display: flex;
 }
 
 .link__red {
