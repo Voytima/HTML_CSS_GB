@@ -247,7 +247,7 @@ footer {
 }
 
 .bottom_img {
-  padding: 0;
+  margin-bottom: 5px;
 }
 
 .card__content {
