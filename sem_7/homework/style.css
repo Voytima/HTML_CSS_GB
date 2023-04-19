@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@600;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* ---------------------------------------- */
+
+header {
+  background: #222222;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_left {
+  display: flex;
+  justify-content: center;
+  gap: 41px;
+  padding-top: 18px;
+  padding-bottom: 19px;
+}
+
+.nav_right {
+  display: flex;
+  justify-content: center;
+  gap: 33px;
+  padding-top: 26px;
+  padding-bottom: 20px;
+}
+
+.btn {
+  background: #222222;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+/* ------------------------------------------------- */
+
+.banner {
+  background: #f1e4e6;
+  display: flex;
+  justify-content: center;
+}
+
+.banner_content {
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+  margin-top: 290px;
+  margin-right: 331px;
+  margin-bottom: 381px;
+  margin-left: 63px;
+  height: 93px;
+}
+
+.banner_content h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #222222;
+}
+
+.banner_content h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #222222;
+}
+
+.red__text {
+  color: #f16d7f;
+}
+/* ------------------------------------------------------- */
+
+.main__content {
+  padding-top: 65px;
+  text-align: center;
+  background: #f8f8f8;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+}
+
+.card__item1,
+.card__item2,
+.card__item3 {
+  width: 360px;
+  height: 260px;
+}
+
+.card__item1 {
+  background-image: url(./img/mid_card1.png);
+}
+
+.card__item2 {
+  background-image: url(./img/mid_card2.png);
+}
+
+.card__item3 {
+  background-image: url(./img/mid_card3.png);
+}
+
+.card__item4 {
+  width: 1140px;
+  height: 180px;
+  background-image: url(./img/mid_card4.png);
+  grid-column: span 3;
+}
+
+.card__item1__inner,
+.card__item2__inner,
+.card__item3__inner,
+.card__item4__inner {
+  background: rgba(33, 22, 22, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__text h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card__text h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #f16d7f;
+}
+/* ------------------------------------------------------- */
+.items {
+  padding-top: 96px;
+  padding-bottom: 60px;
+}
+
+.items__header {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+  padding-bottom: 6px;
+}
+
+.items__text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9f9f9f;
+}
+
+.item__cards {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 49px;
+}
+
+.position {
+  background: #f8f8f8;
+}
+
+.item__info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 5px;
+  padding-left: 29px;
+  padding-right: 16px;
+  padding-bottom: 19px;
+}
+
+.item__name {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  padding-top: 25px;
+}
+
+.item__info p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5d5d5d;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.price {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f16d7f;
+}
+
+.bottom__btn {
+  margin-bottom: 60px;
+  padding: 14px 39px;
+  border: 1px solid #ff6a6a;
+  background: #f8f8f8;
+}
+
+.bottom__btn:hover {
+  cursor: pointer;
+}
+
+.bottom__btn__text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f26376;
+}
+/* ------------------------------------------------ */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .container {
+    width: 736px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .navigation {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .nav_left {
+    padding-bottom: 18px;
+  }
+  .nav_right {
+    padding-top: 19px;
+    padding-bottom: 18px;
+  }
+  body {
+    max-width: 1024px;
+  }
+  .banner_content {
+    border-left: 12px solid #f16d7f;
+    padding-left: 16px;
+    margin-top: 138px;
+    margin-right: 34px;
+    margin-bottom: 138px;
+    margin-left: 39px;
+    height: 92px;
+  }
+  .banner img {
+    width: 368px;
+    height: 368px;
+  }
+  .banner_content h2 {
+    font-size: 44px;
+    line-height: 53px;
+  }
+  .banner_content h3 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .main__content {
+    background: #fff;
+  }
+
+  .cards {
+    gap: 20px;
+  }
+  .card__item1,
+  .card__item2,
+  .card__item3 {
+    width: 232px;
+    height: 168px;
+    background: #f8f8f8;
+  }
+  .card__item4 {
+    width: 735px;
+    height: 116px;
+  }
+  .items {
+    padding-top: 110px;
+    padding-bottom: 71px;
+  }
+  .items__header {
+    padding-bottom: 3px;
+  }
+  .item__cards {
+    margin-top: 73px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 33px;
+  }
+  .item__info {
+    padding-bottom: 20px;
+  }
+  .item__info p {
+    padding-top: 13px;
+    padding-bottom: 18px;
+  }
+  .bottom__btn {
+    margin-bottom: 71px;
+  }
+}
