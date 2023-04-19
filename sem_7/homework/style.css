@@ -59,7 +59,7 @@ header {
 }
 
 body {
-  width: 1600px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 /* ------------------------------------------------- */
@@ -274,10 +274,12 @@ body {
 @media (max-width: 1024px) and (min-width: 768px) {
   .container {
     width: 736px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
   .navigation {
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .nav_left {
@@ -288,7 +290,7 @@ body {
     padding-bottom: 18px;
   }
   body {
-    width: 1024px;
+    max-width: 1024px;
   }
   .banner_content {
     border-left: 12px solid #f16d7f;
@@ -311,6 +313,11 @@ body {
     font-size: 24px;
     line-height: 29px;
   }
+
+  .main__content {
+    background: #fff;
+  }
+
   .cards {
     gap: 20px;
   }
@@ -319,6 +326,7 @@ body {
   .card__item3 {
     width: 232px;
     height: 168px;
+    background: #f8f8f8;
   }
   .card__item4 {
     width: 735px;
