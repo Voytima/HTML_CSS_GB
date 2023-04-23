@@ -274,8 +274,7 @@ body {
 @media (max-width: 1024px) and (min-width: 768px) {
   .container {
     width: 736px;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: auto;
   }
   .navigation {
     padding-left: 16px;
@@ -361,9 +360,7 @@ body {
 /* ------------------------------------------ */
 @media (max-width: 767px) and (min-width: 320px) {
   .container {
-    width: 360px;
-    margin-left: 8px;
-    margin-right: 8px;
+    width: 375px;
   }
   .hidden {
     display: none;
@@ -372,8 +369,8 @@ body {
     min-width: 375px;
   }
   .navigation {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .nav_left {
     gap: 41px;
@@ -382,13 +379,14 @@ body {
   .nav_right {
     padding-top: 25px;
     padding-bottom: 25px;
-    gap: 0px;
+    flex-direction: row-reverse;
   }
   body {
     max-width: 767px;
   }
   .banner {
     min-width: 375px;
+    max-width: 767px;
   }
   .banner_content {
     border-left: 12px solid #f16d7f;
@@ -416,7 +414,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     gap: 32px;
   }
   .card__item1,
@@ -434,22 +431,22 @@ body {
   .items {
     padding-top: 64px;
     padding-bottom: 41px;
-    margin: 0 auto;
-    margin-left: 8px;
-    margin-right: 8px;
+    /* margin-left: 8px; */
+    /* margin-right: 8px; */
   }
   .position img {
-    /* width: 100%; */
-    margin: 0;
+    width: 100%;
   }
-
   .item__cards {
+    width: 359px;
     margin-top: 65px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 16px;
     margin-bottom: 33px;
+    margin-right: auto;
+    margin-left: auto;
   }
   .item__info {
     padding-bottom: 20px;
